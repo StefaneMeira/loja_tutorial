@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display:flex;
+    flex-wrap:wrap;
+    max-width:1300px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+html,body{
+    height:100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.header{
+    height:200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+
+}
+
+.menu{
+    padding-top:30px;
+    width:50%;
+    text-align:right;
+}
+
+.menu a{
+    color:black;
+    text-decoration:none; 
+    font-weight:bold;
+    margin-left:30px;
+} 
+
+section.sobre{
+    height:calc(100% - 120px);
+    position:relative;
+}
+
+.extras{
+    position:absolute;
+    bottom:-100;
+    right:-300px;
+    width:700px;
+    height:600px;
+    border-radius:35%;
+    background-color:rgb(233, 83, 108);
+}
+
+.social-media{
+    position:absolute;
+    right:350;
+    top:170;
+}
+
+.social-media img {
+    display:block;
+    margin:20px 0;
+}
+
+.modelo{
+    position:absolute;
+    left:-90;
+}
+
+.texto-sobre{
+    margin:120px;
+}
+
+.texto-sobre h1{
+    font-size:50px;
+}
+
+.texto-sobre p{
+    margin:20px 0;
+    color:black;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color:rgb(233, 83, 108);
+    color:white;
+    border-radius:6px;
+    font-size:18px;
+    cursor: pointer;
+}
